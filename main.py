@@ -1,18 +1,4 @@
-"""
-Module for demonstrating basic arithmetic operations and class implementation.
-"""
-
 def calculate_sum(x: int, y: int) -> int:
-    """
-    Calculate the sum of two numbers and print if result exceeds 10.
-
-    Args:
-        x (int): First number
-        y (int): Second number
-
-    Returns:
-        int: Sum of x and y
-    """
     result = x + y
     if result > 10:
         print(f'result is: {result}')
