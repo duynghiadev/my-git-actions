@@ -10,6 +10,7 @@ class Calculator:
 
     def __init__(self):
         """Initialize Calculator with default values."""
+        """test commit"""
         self.x = 10
         self.y = 20
 
