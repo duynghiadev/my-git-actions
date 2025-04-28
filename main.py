@@ -24,8 +24,8 @@ class Calculator:
 
     def __init__(self):
         """Initialize Calculator with default values."""
-        self.x = 1
-        self.y = 2
+        self.x = 10
+        self.y = 20
 
 
 # Remove unused imports and undefined variable reference
