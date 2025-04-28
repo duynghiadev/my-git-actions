@@ -14,7 +14,6 @@ class Calculator:
         self.y = 20
 
 
-# Remove unused imports and undefined variable reference
 if __name__ == "__main__":
     calc = Calculator()
     calculate_sum(calc.x, calc.y)
