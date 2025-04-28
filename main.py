@@ -1,7 +1,7 @@
 def calculate_sum(x: int, y: int) -> int:
     result = x + y
     if result > 10:
-        print(f'result is: {result}')
+        print(f"result is: {result}")
     return result
 
 
