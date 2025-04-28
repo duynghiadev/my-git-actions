@@ -1,18 +1,34 @@
-def badFunction( x,y ):
-    z=x+y
-    if(z>10):
-      print('result is:'+str(z))
-    return      z
+"""
+Module for demonstrating basic arithmetic operations and class implementation.
+"""
 
-# unused import
-import os
-import sys
+def calculate_sum(x: int, y: int) -> int:
+    """
+    Calculate the sum of two numbers and print if result exceeds 10.
 
-# undefined variable
-print(undefined_variable)
+    Args:
+        x (int): First number
+        y (int): Second number
 
-# bad whitespace and missing docstring
-class badClass:
-  def __init__(self):
-    self.x=1
-    self.y=2
+    Returns:
+        int: Sum of x and y
+    """
+    result = x + y
+    if result > 10:
+        print(f'result is: {result}')
+    return result
+
+
+class Calculator:
+    """A simple calculator class."""
+
+    def __init__(self):
+        """Initialize Calculator with default values."""
+        self.x = 1
+        self.y = 2
+
+
+# Remove unused imports and undefined variable reference
+if __name__ == "__main__":
+    calc = Calculator()
+    calculate_sum(calc.x, calc.y)
